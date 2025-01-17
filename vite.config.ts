@@ -7,4 +7,7 @@ export default defineConfig({
     include: ['src/**/*.{test,spec}.{js,ts}'],
     restoreMocks: true,
   },
+  server: {
+    port: 3001,
+  },
 });
